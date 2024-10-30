@@ -6,16 +6,9 @@ LostArk API 키가 필요합니다. [개발자 포털](https://developer-lostark
 ### 사용법 1: XLSM 파일을 사용하는 경우(매크로 실행 차단을 해제할 필요가 있음)
 1. XLSM 파일을 연다.
 2. T9 셀의 '제작 수수료 절감률'을 자신의 원정대 영지 환경에 맞춰 수정한다.
-3. Alt + F11을 눌러 좌측의 '모듈', 'fetch_market_min_price'를 클릭한다.
-   
-![image](https://github.com/user-attachments/assets/18d50903-33ce-4e27-9771-e48369078df5)
-
-4. 코드에서 'api_key' 변수에 개발자 포털에서 받은 API 키를 넣는다.
-
-![image](https://github.com/user-attachments/assets/083e29aa-558b-4c35-a4ac-ab6028227f03)
-
-5. 개발자 도구 창을 닫고 '거래소 가격 가져오기' 버튼을 클릭한다.
-6. 가격이 바뀌었으면 제작 손익을 확인한다.
+3. T12 셀의 'API 키'에 개발자 포털에서 받은 API 키를 복사&붙여넣기한다.
+4. '거래소 가격 가져오기' 버튼을 클릭한다.
+5. 가격이 바뀌었으면 제작 손익을 확인한다.
 
 
 ### 사용법 2: XLSX 파일을 사용하는 경우
